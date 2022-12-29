@@ -1,0 +1,39 @@
+body {
+    background: #244bc5;
+    background-image: url("/image/Pngtree.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+::placeholder {
+    color: black;
+}
+
+.inputwrapper {
+    width: 300px;
+}
+
+.inputwrapper input,
+.inputwrapper button {
+    width: 100%;
+    border: 0;
+    box-sizing: border-box;
+    height: 45px;
+}
+
+.inputwrapper input {
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+.inputwrapper button {
+    margin-top: 25px;
+}
+
+.innerhtml {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
